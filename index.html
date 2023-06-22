@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>FT-Restaurant</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <script defer src="./js/main.js"></script>
 
 </head>
 <body>
@@ -24,10 +27,13 @@
                 </nav>
                 <div class="header-right">
                     <div class="search-i-basket">
-                        <a class="search" href="#">
-                            <img src="./img/svg/search.svg" alt="search">
-                        </a>
-                        <a class="basket" href="">
+                        <form class="form-search" action="get">
+                            <input class="input-search" type="search" required>
+                            <i class="fa fa-search">                         
+                            </i>
+                            <a class="link-search" href="javascript:void(0)" id="clear-btn">Clear</a>
+                        </form>
+                        <a class="basket" href="№">
                             <img src="./img/svg/basket.svg" alt="basket">
                         </a>
                     </div>
