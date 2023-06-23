@@ -42,6 +42,94 @@ p {
     background-color: #FDFAF6;
 }
 
+.red {
+    color: #F95555;
+}
+
+/*LINK*/
+.main-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.78;
+}
+
+.white-text {
+    color: white;
+    margin-right: 10px;
+}
+
+.red-text {
+    color: #F95555;
+}
+
+.bg-white {
+    background-color: white;
+    border: 1px solid #F95555;
+    border-radius: 4px 20px;
+}
+
+.bg-white:hover {
+    cursor: pointer;
+    border: 2px solid #7c7a7a;
+}
+
+.bg-red {
+    background-color: #F95555;
+    box-shadow: 0px 10px 30px rgba(249, 85, 85, 0.2);
+    border-radius: 4px 20px;
+}
+
+.bg-red:hover {
+    background-color: #fe3535;
+    cursor: pointer;
+}
+
+.link-next {
+    width: 100px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 20px;
+    transition: .5s ease;
+}
+
+.next-white {
+    background-color: white;
+    margin-right: 30px;
+}
+
+.next-red {
+    background-color: #F95555;
+}
+
+.link-next:hover {
+    cursor: pointer;
+    background-color: #fe3535;
+}
+
+.next-white:hover path {
+    fill: white;
+    transition: .5s ease;
+}
+
+.next-white:hover~.next-red {
+    background-color: white;
+    transition: .5s ease;
+}
+
+.next-white:hover~.next-red path {
+    fill: #BCBCBC;
+    transition: .5s ease;
+}
+
+
+
+
+
 /*HEADER*/
 .header {
     width: 100%;
@@ -225,10 +313,6 @@ p {
     margin-top: 30px;
 }
 
-.red {
-    color: #F95555;
-}
-
 .main-subtitle p {
     margin-top: 20px;
     font-weight: 400;
@@ -258,33 +342,6 @@ p {
     height: 56px;
 }
 
-.main-link {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.78;
-}
-
-.white-text {
-    color: white;
-}
-
-.red-text {
-    color: #F95555;
-}
-
-.bg-white {
-    background-color: white;
-    border: 1px solid #F95555;
-    border-radius: 4px 20px;
-}
-
-.bg-red {
-    background-color: #F95555;
-    box-shadow: 0px 10px 30px rgba(249, 85, 85, 0.2);
-    border-radius: 4px 20px;
-}
-
 .main-menu {
     height: 152px;
     display: flex;
@@ -299,21 +356,26 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
-    z-index: 2;
+    z-index: 1;
 }
 
 .text-menu {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.78;
     color: #F95555;
-    z-index: 2;
+    z-index: 1;
 }
 
 .block {
     width: 33.33%;
-    padding: 0 10px;
+    margin-right: 27px;
+}
+
+.block:last-child {
+    margin-right: 0;
 }
 
 .menu-wrapper {
@@ -322,7 +384,6 @@ p {
 }
 
 .menu-link {
-    /*width: 33.3%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,10 +394,8 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    /*position: relative;*/
     width: 100%;
     height: 100%;
-    /*background-color: black;*/
     opacity: 0;
     position: absolute;
     top: 0;
@@ -417,24 +476,6 @@ p {
     position: absolute;
     right: 80px;
     bottom: 21px;
-}
-
-.link-next {
-    width: 100px;
-    height: 48px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px 20px;
-}
-
-.next-white {
-    background-color: white;
-    margin-right: 30px;
-}
-
-.next-red {
-    background-color: #F95555;
 }
 
 /*COMMENT*/
