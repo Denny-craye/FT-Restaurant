@@ -50,6 +50,7 @@ object {
     z-index: 1;
 }
 
+
 /*LINK*/
 .main-link {
     display: flex;
@@ -131,9 +132,6 @@ object {
 }
 
 
-
-
-
 /*HEADER*/
 .header {
     width: 100%;
@@ -149,6 +147,7 @@ object {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo-block {
     width: 50px;
     height: 50px;
@@ -416,7 +415,7 @@ object {
     opacity: 1;
 }
 
-/*DISCOUNT*/
+/*discount*/
 .discount {
     width: 154px;
     height: 144px;
@@ -455,7 +454,7 @@ object {
     margin-top: 8px;
 }
 
-/*MAIN-BURGER*/
+/*main-burger*/
 .main-burger {
     display: flex;
     flex-direction: column;
@@ -482,7 +481,7 @@ object {
     bottom: 21px;
 }
 
-/*COMMENT*/
+/*comment*/
 .comment {
     display: flex;
     align-items: center;
@@ -527,7 +526,6 @@ object {
 .heart svg:hover {
     fill: #F95555;
 }
-
 
 .star, 
 .heart p {
@@ -687,7 +685,6 @@ object {
 }
 
 
-
 /*HOW IT WORKS*/
 .works-title {
     text-align: center;
@@ -835,12 +832,13 @@ object {
     left: 447px;
 }
 
-/*HEALTHY-COMMENT*/
+/*healthy-comment*/
 .healthy-right {
     z-index: 1;
     margin-top: 36px;
     margin-left: 140px;
 }
+
 .healthy-comments {
     display: flex;
     flex-direction: column;
