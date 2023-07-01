@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="google" value="notranslate">
     <title>FT-Restaurant</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/media.css">
 
     <script defer src="./js/main.js"></script>
 
 </head>
 <body>
-    <header class="header mb40px">
+    <header class="header open mb40px">
         <div class="container">
             <div class="header-wrapper">
                 <div class="logo-block">
                     <img src="./img/svg/logo.svg" alt="Logotype">
                 </div>
-                <nav class="navigation">
-                    <div class="naviagtion-list">
+                <nav class="navigation" id="navigation">
+                    <div class="navigation-list">
                         <a class="navigation-link active" href="#">Home</a>
                         <a class="navigation-link" href="#">Manu</a>
                         <a class="navigation-link" href="#">Services</a>
@@ -37,6 +39,12 @@
                         </a>
                     </div>
                 </div>
+
+                <button class="drop-menu" id="drop-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
@@ -48,7 +56,7 @@
                     <img src="./img/svg/arrow.svg" alt="">
                 </div>
 
-                <div class="main-blok">
+                <div class="main-blok width-50">
                     <div class="eat-healthy">
                         <img src="./img/svg/floating-burger.svg" alt="">
                         <p>Eat healthy, Stay Healthy</p>
@@ -245,7 +253,7 @@
                                 </div>
                                 <div class="dishes-image" style="background-image: url(./img/dishes/Chose_your_Meals.png);">
                                 </div>
-                                <h3 class="dishes-wrapper--title">Chose your Meals</h3>
+                                <h3 class="dishes-wrapper--title">Meals</h3>
                                 <p class="dishes-wrapper--text">We will deliver your food within 30 minutes in your town, If we would.</p>
                                 <div class="cost-i-cart">
                                     <p class="cost">$50.99</p>
@@ -344,11 +352,13 @@
     <section class="pd120px bg-color">
         <div class="container">
             <div class="healthy">
-                <div class="healthy-arrow">
-                    <img src="./img/svg/arrow-healthy.svg" alt="">
-                </div>
+
 
                 <div class="main-healthy">
+                    <div class="healthy-arrow">
+                        <img src="./img/svg/arrow-healthy.svg" alt="">
+                    </div>
+
                     <div class="ellips-healthy">
                         <div class="ellips-wrapper">
                                 <div class="menu-image" style="background-image: url(./img/chicken-bg.jpg);"></div>
@@ -369,11 +379,13 @@
                             </svg>
                         </a>
                     </div>
+
+                    <div class="girl">
+                        <img src="./img/girl.jpg" alt="girl">
+                    </div>
                 </div>
 
-                <div class="girl">
-                    <img src="./img/girl.jpg" alt="girl">
-                </div>
+
 
                 <div class="healthy-right">
                     <div class="healthy-comments">

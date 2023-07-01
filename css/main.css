@@ -50,6 +50,54 @@ object {
     z-index: 1;
 }
 
+.drop-menu {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.drop-menu span {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    left: 5px;
+    background-color: white;
+    transition: background-color .3s, opacity .3s, transform .5s;
+    will-change: transform;
+}
+
+.drop-menu span:nth-child(1) {
+    transform: translateY(-10px);
+}
+
+.drop-menu span:nth-child(3) {
+    transform: translateY(10px);
+}
+
+.drop-menu:hover span {
+    background-color: rgb(100, 100, 100);
+}
+
+.drop-menu span {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    left: 5px;
+    background-color: black;
+    transition: background-color .3s, opacity .3s, transform .5s;
+    will-change: transform;
+}
+
+
+
 
 /*LINK*/
 .main-link {
@@ -153,7 +201,7 @@ object {
     height: 50px;
 }
 
-.naviagtion-list {
+.navigation-list {
     display: flex;
 }
 
@@ -285,6 +333,7 @@ object {
 .main-wrapper {
     max-height: 736px;
     display: flex;
+    justify-content: space-between;
 }
 .arrow {
     position: absolute;
@@ -292,8 +341,8 @@ object {
     bottom: 90px;
 }
 .main-blok {
-    width: 50%;
-    height: 724px;
+    /*height: 724px;*/
+    height: auto;
 }
 
 .eat-healthy {
@@ -527,11 +576,12 @@ object {
     fill: #F95555;
 }
 
-.star, 
+.star p, 
 .heart p {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.4;
+    color: #2B2B2B;
 }
 
 .dishes-title {
@@ -900,7 +950,7 @@ object {
     z-index: 1;
     margin-top: 15px;
     margin-left: 15px;
-    position: absolute;
+    position: relative;
 }
 
 .person-ellips {

@@ -1,0 +1,872 @@
+@media (max-width: 1260px) {
+    .pd120px {
+        padding: 100px 60px 30px 60px ;
+    }
+    .header-wrapper {
+        padding: 0 30px;
+    }
+
+    .main-wrapper {
+        padding: 0 30px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .burger-wrapper {
+        margin-left: 0;
+    }
+
+    .main-block {
+        width: auto;
+    }
+
+    .width-50 {
+        width: 50%;
+    }
+
+    .block {
+        margin-right: 24px;
+    }
+
+    .dishes-block {
+        margin-right: 30px;
+    }
+
+    .dishes-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dishes-wrapper::after {
+        border-radius: 75px;
+    }
+
+    .dishes-wrapper--text {
+        text-align: center;
+    }
+
+    .star-i-heart {
+        padding: 0 20px;
+        top: 162px;
+    }
+
+    .add-cart {
+        padding: 0;
+    }
+
+    .cost {
+        font-size: 26px;
+    }
+
+    .stages-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .stages-wrapper::after {
+        border-radius: 60px;
+    }
+
+    .stages-wrapper--title {
+        margin-top: 25px;
+    }
+
+    .healthy-right {
+        display: none;
+    }
+
+    .reaction {
+        width: auto;
+    }
+
+    .person {
+        width: 430px;
+        display: flex;
+        align-items: center;
+        background-position-y: 92px;
+        background-position-x: -10px;
+        background-size: 85%;
+    }
+
+    .person-image {
+        height: 407px;
+        margin-top: 0;
+    }
+
+    .person-ellips {
+        width: 150px;
+        height: 150px;
+        top: 91px;
+        left: 98px;
+    }
+
+    .comment-reaction {
+        margin-top: 30px;
+        padding: 20px;
+        max-width: 450px;
+        margin: 30px auto;
+    }
+
+    .buttons-reaction {
+        margin-top: 30px;
+        max-width: 450px;
+        margin: 30px auto;
+    }
+
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+        max-width: 145px;
+    }
+
+    .product, .social {
+        margin-right: 220px;
+    }
+
+    .legal {
+        margin-right: 40px;
+    }   
+}
+
+
+@media (max-width: 1080px) {
+    .h2-title {       
+        font-size: 46px;
+    }
+
+    .main-headline h1 {
+        font-size: 70px;
+    }
+
+    .text-menu {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .discount {
+        display: none;
+    }
+
+    .dishes-wrapper--title {
+        font-size: 22px;
+    }
+
+    .dishes-wrapper--text {
+        font-size: 15px;
+    }
+
+    .cost {
+        font-size: 20px;
+    }
+
+    .menu-link::after {
+        background-position: center;
+    }
+
+    /*.person {
+        background-position-y: 80px;
+    }*/
+
+    /*.person-ellips {
+        top: 82px;
+    }*/
+
+    .text-reaction {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .autor-reaction {
+        margin-top: 30px;
+    }
+
+    .healthy-comments-wrapper {
+        justify-content: center;
+    }
+
+    .reaction .h2-title {
+        font-size: 38px;
+    }
+
+    .legal {
+        margin-right: 0;
+    }
+
+    .product, .social {
+        margin-right: 190px;
+    }
+    
+    .person-image {
+        margin: auto auto;
+    }
+
+    .person-ellips {
+        display: none;
+    }
+
+    .person {
+        background-size: 0;
+    }
+
+
+}
+
+@media (max-width: 950px) {
+    .pd120px {
+        padding: 80px 40px 30px 40px;
+    }
+
+    .main-headline h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .block-link {
+        margin-right: 0;
+        width: 170px;
+        height: 52px
+    }
+
+    .block-link:nth-child(2) {
+        width: 170px;
+        height: 52px
+    }
+
+    .main-subtitle p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .main-burger {
+        background-size: contain;
+    }
+
+    .burger-image img {
+        height: 450px;
+    }
+
+    .burger-image {
+        top: -66px;
+        left: 43px;
+    }
+
+    .main-wrapper {
+        padding: 0;
+        padding-left: 30px;
+    }
+
+    .main-order {
+        justify-content: space-around;
+    }
+
+    .text-menu {
+        font-size: 14px;
+    }
+
+    .comment-text {
+        margin-left: 14px;
+        font-size: 14px;
+        margin-right: 14px;
+    }
+
+    .comment-icon {
+        margin-right: 10px;
+        width: 55px;
+        height: 55px;
+        padding: 5px;
+    }
+
+    .icon-ellips {
+        width: 45px;
+        height: 45px;
+    }
+
+    .dishes-wrapper {
+        padding-bottom: 20px;
+    }
+
+    .cost-i-cart {
+        margin-top: 20px;
+    }
+
+    .dishes-wrapper--title {
+        margin-top: 50px;
+    }
+
+    .dishes-button {
+        margin-top: 50px;
+    }
+
+    .stages-wrapper--title {
+        font-size: 20px;
+    }
+
+    .eat-healthy-text {
+        margin-bottom: 90px;
+        margin-top: 20px;
+    }
+
+    .product, .social {
+            margin-right: 170px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .main-headline h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .eat-healthy p {       
+        font-size: 18px;
+    }
+
+    .eat-healthy img {
+        height: 40px;
+    }
+
+    .main-subtitle p {
+        font-size: 14px;
+    }
+
+    .main-order {
+        margin-top: 30px;
+    }
+
+    .main-link {
+        font-size: 16px;
+    }
+
+    .block-link {
+        width: 160px;
+        height: 48px;
+    }
+
+    .block-link:nth-child(2) {
+        width: 160px;
+        height: 48px;
+    }
+
+    .burger-image img {
+        height: 400px;
+    }
+
+    .burger-image {
+        left: 55px;
+    }
+
+    .burger-wrapper {
+        margin-top: 60px;
+    }
+
+    .burger-next {
+        bottom: 10px;
+    }
+
+    .comment {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .text-menu {
+        font-size: 12px;
+    }
+
+    .menu-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .pd120px {
+        padding: 60px 40px 30px 40px;
+    }
+
+    .popular-dishes {
+        margin-top: 40px;
+    }
+
+    .h2-title {
+        font-size: 40px;
+    }
+
+    .star-i-heart {       
+        padding: 0 10px;
+        top: 175px;
+    }
+
+    .dishes-block {
+        margin-right: 20px;
+    }
+
+    .dishes-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .dishes-wrapper::after {
+        background-size: cover;
+        background-position-y: 10px;
+    }
+
+    .star p, .heart p {
+        font-size: 14px;
+    }
+
+    .dishes-wrapper--title {
+        font-size: 20px;
+    }
+
+    .cost-i-cart {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .cost {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .dishes-button {
+        margin-top: 40px;
+        width: 220px;
+        height: 50px;
+    }
+
+    .stages {
+        margin-top: 40px;
+    }
+
+    .stages-block {
+        margin-right: 30px;
+    }
+
+    .stages-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .stages-wrapper::after {
+        background-size: cover;
+        background-position-y: 10px;
+    }
+
+    .girl {
+        width: 268px;
+        height: 350px;
+    }
+
+    .ellips-healthy .ellips-wrapper {
+        display: none;
+    }
+
+    .ellips-healthy h2 {
+        margin-left: 0;
+    }
+
+    .eat-healthy-text {
+        margin-top: 50px;
+    }
+
+    .eat-healthy-text p {
+        font-size: 20px;
+    }
+
+    .ellips-wrapper .block-link {
+        margin-top: 90px;
+    }
+
+    .button-footer {
+        padding: 30px 0;
+    }
+
+    .person-image {
+        height: 357px;
+    }
+
+    .comment-reaction {
+        padding: 10px;
+    }
+
+    .product-social-legal {
+        align-items: center;
+    }
+
+    .product, .social {
+        margin-right: 160px;
+    }
+
+    .footer-text {
+        font-size: 18px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .h2-title {
+        font-size: 36px;
+    }
+
+    .pd120px {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .header-wrapper {
+        justify-content: space-between;
+        max-height: 40px;
+    }
+    
+    .header-right {
+        margin-right: 350px;
+    }
+
+    .form-search {
+        left: 60px;
+        transform: translate(50%, -50%);
+    }
+
+    .drop-menu {
+        display: block;
+    }
+
+    .navigation {
+        position: absolute;
+        right: -200px;
+        top: 0;
+        width: 200px;
+        padding: 55px 20px 20px 20px;
+        background-color: white;
+        visibility: hidden;
+        transition: transform .5s, visibility .5s;
+        will-change: transform;
+        z-index: 2;
+        border-left: 2px solid #6e6e6e;
+        border-bottom: 2px solid #6e6e6e;
+    }
+
+    .navigation-list {
+        flex-direction: column;
+    }
+
+    .navigation-link {
+        display: block;
+        padding: 10px;
+        font-size: 21px;
+        color: black;
+    }
+
+    .header.open .drop-menu span {
+        background-color: #3b3a3a ;
+    }
+
+    .header.open .drop-menu span:nth-child(1) {
+        transform: translateY(0) rotate(45deg);
+    }
+
+    .header.open .drop-menu span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header.open .drop-menu span:nth-child(3) {
+        transform: translateY(0) rotate(-45deg);
+    }
+
+    .header.open .navigation {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+
+    .form-search:hover, .form-search:valid {
+        width: 150px;
+    }
+
+    .eat-healthy-text p {
+        font-size: 18px;
+    }
+
+    .eat-healthy img {
+        height: 30px;
+    }
+
+    .eat-healthy p {
+        font-size: 16px;
+    }
+
+    .main-headline h1 {
+        font-size: 46px;
+    }
+
+    .main-subtitle p {
+        font-size: 12px;
+    }
+
+    .block-link {
+        width: 130px;
+        height: 40px;
+    }
+
+    .block-link:nth-child(2) {
+        width: 130px;
+        height: 40px;
+    }
+
+    .main-link {
+        font-size: 14px;
+    }
+
+    .main-link svg {
+        width: 30px;
+    }
+
+    .burger-image img {
+        height: 325px;
+    }
+
+    .burger-image {
+        left: 40px;
+    }
+
+    .burger-wrapper {
+        max-width: 300px;
+    }
+
+    .link-next {
+        width: 70px;
+        height: 35px;
+    }
+
+    .link-next svg {
+        width: 30px;
+    }
+
+    .next-white {
+        margin-right: 10px;
+    }
+
+    .comment-text {
+        margin-left: 12px;
+        font-size: 12px;
+        margin-right: 16px;
+    }
+
+    .text-menu {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .block {
+        margin-right: 20px;
+    }
+
+
+    /*dishes*/
+    .popular-dishes {
+        flex-direction: column;
+    }
+
+    .dishes-block {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .dishes-block:last-child {
+        margin-bottom: 0;
+    }
+
+    .stages-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .dishes-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .dishes-wrapper::after {
+        display: none;
+    }
+
+    .star-i-heart {
+        justify-content: space-around;
+        top: 65px;
+    }
+
+    .dishes-wrapper--title {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    .add-cart {
+        color: #F95555;
+    }
+
+    .dishes-button {       
+        margin-top: 20px;
+        width: 160px;
+        height: 40px;
+    }
+
+    /*stages*/
+    .stages{
+        flex-direction: column;
+    }
+
+    .stages-block {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .stages-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .stages-wrapper::after {
+        display: none;
+    }
+
+    .link__reed-more {
+        margin-top: 18px;
+    }
+
+    .eat-healthy-text p {
+        margin-bottom: 70px;
+    }
+
+    .girl {       
+        width: 168px;
+        height: 250px;
+        left: 352px;
+    }
+
+    /*reaction*/
+    .eat-healthy-text {
+        margin-top: 20px;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .healthy-arrow img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .healthy-arrow {
+        bottom: -67px;
+        left: 173px;
+    }
+
+    .person-image {
+        height: 257px;
+    }
+
+    .person {
+        height: 50%;
+        align-self: center;
+    }
+
+    .reaction {
+        width: 100%;
+    }
+
+    .reaction .h2-title {
+        font-size: 27px;
+    }
+
+    .comment-reaction {
+        margin: 15px auto;
+    }
+
+    .text-reaction {
+        font-size: 15px;
+    }
+
+    .comment-title {
+        font-size: 16px;
+    }
+
+    .comment-subtitle {
+        font-size: 14px;
+    }
+
+    .reaction-rating svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .buttons-reaction {
+        margin: 15px auto;
+    }
+
+    .customers-reaction {
+        margin-top: 50px;
+    }
+
+    /*footer*/
+    .top-footer {
+        padding-top: 20px;
+    }
+
+    .product-social-legal {
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-start;
+        gap: 70px;
+    }
+
+    .product, .social, .legal {
+        flex-direction: row;
+        position: relative;
+    }
+
+    .footer-link {
+        margin-right: 10px;
+    }
+
+    .footer-title {
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .footer-link:last-child {
+        margin-right: 0;
+    }
+
+    .product, .social {
+        margin-right: 0;
+    }
+
+    .footer-link {
+        font-size: 16px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        max-width: 100px;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .copyright-text {
+        font-size: 16px;
+    }
+
+    .button-footer {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 650px) {
+    
+}
